@@ -18,11 +18,10 @@ function App() {
   }
 
   function DecrementCounter() {
-    if(setCounter <= 0) {
+    if(counter <= 0) {
       alert("Counter cannot be less than 0");
       return;
     }
-    // if(counter <= 0) { 
     setCounter(counter - 1);
   }
 
